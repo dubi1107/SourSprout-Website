@@ -7,7 +7,8 @@ Static single-page site for Soursprout (Russian-style sauerkraut). Live on Netli
 - Texas **in-person delivery only** (operator or household member). **No shipping. No pickup at the production home.**
 - Pre-order product blocks include: ingredients, net weight, ALL-CAPS cottage disclosure, and DSHS Cottage Food Registry **#14300**. Classic sauerkraut also includes a batch note and the TCS safe-handling statement. Sourdough Bread is a separate label (contains wheat; no safe-handling statement, no refrigeration line, no batch-number format).
 - No probiotic / gut / immunity / digestion health claims.
-- Offering now: Classic sauerkraut (cabbage, carrots, salt · 16 oz · $12) and Sourdough Bread (country-style loaf · about 1.75 lb / approx. 790 g · $12). Kraut ferment is 72–96 hours. In-person delivery: Plano, Frisco, Allen, McKinney, Richardson. Contact: soursproutllc@gmail.com.
+- Offering now: Classic sauerkraut (cabbage, carrots, salt · 16 oz · $12) and Sourdough Bread (oval batard-style loaf · about 1.75 lb / approx. 790 g · $12). Kraut ferment is 72–96 hours. In-person delivery: Plano, Frisco, Allen, McKinney, Richardson. Contact: soursproutllc@gmail.com.
+- `assets/images/sourdough.jpg` is a temporary illustrative image. Replace it when a real loaf photo is available.
 
 ## Stack
 
