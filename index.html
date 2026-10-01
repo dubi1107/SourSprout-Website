@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soursprout • Russian-Style Sauerkraut</title>
-    <meta name="description" content="Small-batch, handcrafted Russian-style sauerkraut made with traditional methods. Naturally fermented, sold direct in Texas with in-person delivery.">
+    <title>Soursprout • Sauerkraut &amp; Sourdough</title>
+    <meta name="description" content="Small-batch Russian-style sauerkraut and country-style sourdough bread. Sold direct in Texas with in-person delivery.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
@@ -194,7 +194,7 @@
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center gap-x-10 text-sm font-medium">
                     <a href="#about" class="nav-link text-[#2C2C2C] hover:text-[#C85A3D]">About</a>
-                    <a href="#products" class="nav-link text-[#2C2C2C] hover:text-[#C85A3D]">Our Kraut</a>
+                    <a href="#products" class="nav-link text-[#2C2C2C] hover:text-[#C85A3D]">Kraut &amp; Bread</a>
                     <a href="#order" class="nav-link text-[#2C2C2C] hover:text-[#C85A3D]">Order</a>
                     <a href="#gallery" class="nav-link text-[#2C2C2C] hover:text-[#C85A3D]">Gallery</a>
                 </div>
@@ -219,7 +219,7 @@
         <div id="mobile-menu" class="hidden md:hidden border-t border-[#2F5D3A]/10 bg-[#F8F4ED]">
             <div class="px-6 py-6 flex flex-col gap-y-4 text-base font-medium">
                 <a href="#about" class="mobile-nav-link py-1 text-[#2C2C2C]">About</a>
-                <a href="#products" class="mobile-nav-link py-1 text-[#2C2C2C]">Our Kraut</a>
+                <a href="#products" class="mobile-nav-link py-1 text-[#2C2C2C]">Kraut &amp; Bread</a>
                 <a href="#order" class="mobile-nav-link py-1 text-[#2C2C2C]">Order</a>
                 <a href="#gallery" class="mobile-nav-link py-1 text-[#2C2C2C]">Gallery</a>
                 <div class="pt-3 border-t border-[#2F5D3A]/10">
@@ -350,15 +350,15 @@
 
     <div class="section-divider max-w-5xl mx-auto"></div>
 
-    <!-- OUR KRAUT / PRODUCTS -->
+    <!-- OUR KRAUT & BREAD / PRODUCTS -->
     <section id="products" class="max-w-7xl mx-auto px-6 pt-16 pb-20">
         <div class="text-center mb-12">
-            <span class="uppercase tracking-[3px] text-xs font-semibold text-[#C85A3D]">TRADITION IN EVERY JAR</span>
-            <h2 class="section-header text-6xl tracking-tighter text-[#2F5D3A] mt-2">Our Kraut</h2>
-            <p class="mt-3 text-[#555] max-w-md mx-auto">Our Classic kraut—cabbage, carrots, and salt—made with care and traditional Russian technique.</p>
+            <span class="uppercase tracking-[3px] text-xs font-semibold text-[#C85A3D]">SMALL BATCH</span>
+            <h2 class="section-header text-4xl sm:text-5xl md:text-6xl tracking-tighter text-[#2F5D3A] mt-2 leading-[1.05]">Our Kraut &amp; Bread</h2>
+            <p class="mt-3 text-[#555] max-w-lg mx-auto">Classic kraut—cabbage, carrots, and salt—and a country-style sourdough loaf, baked to order.</p>
         </div>
 
-        <div class="grid md:grid-cols-1 gap-8 max-w-md mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <!-- Classic -->
             <div class="product-card bg-white rounded-3xl overflow-hidden border border-[#2F5D3A]/10 flex flex-col">
                 <div class="relative aspect-square overflow-hidden bg-[#F8F4ED]">
@@ -368,7 +368,7 @@
                 </div>
                 <div class="p-7 flex-1 flex flex-col">
                     <div>
-                        <div class="flex items-baseline justify-between">
+                        <div class="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
                             <h3 class="text-3xl font-semibold text-[#2F5D3A]">Classic</h3>
                             <div class="text-right text-sm">
                                 <div class="font-medium text-[#C85A3D]">16 oz — $12</div>
@@ -389,10 +389,43 @@
                 </div>
             </div>
 
+            <!-- Sourdough Bread: no product photo; brand panel only -->
+            <div class="product-card bg-white rounded-3xl overflow-hidden border border-[#2F5D3A]/10 flex flex-col">
+                <div class="relative aspect-square overflow-hidden bg-[#2F5D3A] flex flex-col items-center justify-center text-center px-8"
+                     role="img"
+                     aria-label="Sourdough Bread placeholder. No product photo.">
+                    <i class="fa-solid fa-bread-slice text-6xl text-[#F8F4ED]" aria-hidden="true"></i>
+                    <p class="brand-font text-2xl text-[#F8F4ED] mt-5">Sourdough Bread</p>
+                    <p class="mt-2 text-xs tracking-[0.18em] uppercase text-[#F8F4ED]/75">Country-style loaf</p>
+                </div>
+                <div class="p-7 flex-1 flex flex-col">
+                    <div>
+                        <div class="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
+                            <h3 class="text-3xl font-semibold text-[#2F5D3A] leading-tight">Sourdough Bread</h3>
+                            <div class="text-right text-sm shrink-0">
+                                <div class="font-medium text-[#C85A3D]">~1.75 lb loaf — $12</div>
+                                <div class="text-xs text-[#777]">approx. 790 g</div>
+                            </div>
+                        </div>
+                        <p class="mt-2 text-[#444]">Country-style loaf, naturally leavened with organic bread flour and organic whole wheat flour. Crusty, baked to order.</p>
+                    </div>
+
+                    <div class="mt-auto pt-5 text-xs text-[#666] flex items-center gap-x-2">
+                        <div class="px-3 py-1 bg-[#F8F4ED] rounded-2xl">Organic Flours • Water • Starter • Salt</div>
+                    </div>
+
+                    <button onclick="inquireAboutProduct('Sourdough Bread')"
+                            class="mt-6 w-full accent-btn py-3.5 rounded-3xl border border-[#2F5D3A] hover:bg-[#2F5D3A] hover:text-white text-sm font-semibold transition-all flex items-center justify-center gap-x-2">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Inquire to Order</span>
+                    </button>
+                </div>
+            </div>
         </div>
 
-        <div class="text-center mt-9 text-sm text-[#666]">
-            Classic: cabbage, carrots, salt. Vegan and gluten-free. No vinegar or preservatives. Keep refrigerated.
+        <div class="text-center mt-9 text-sm text-[#666] max-w-2xl mx-auto space-y-1">
+            <p>Classic: cabbage, carrots, salt. Vegan and gluten-free. No vinegar or preservatives. Keep refrigerated.</p>
+            <p>Sourdough Bread: organic flours, water, starter, and salt. Contains wheat. Baked to order.</p>
         </div>
     </section>
 
@@ -437,7 +470,7 @@
         <div class="grid md:grid-cols-12 gap-x-14">
             <div class="md:col-span-5">
                 <div class="sticky top-24">
-                    <span class="uppercase tracking-[3px] text-xs font-semibold text-[#C85A3D]">GET YOUR KRAUT</span>
+                    <span class="uppercase tracking-[3px] text-xs font-semibold text-[#C85A3D]">KRAUT &amp; BREAD</span>
                     <h2 class="section-header text-[#2F5D3A] text-6xl tracking-tighter leading-none mt-2 mb-6">How to Order</h2>
                     
                     <div class="space-y-6 text-[15px] text-[#444]">
@@ -452,7 +485,7 @@
                             <div class="mt-1 text-[#C85A3D]"><i class="fa-solid fa-envelope w-5"></i></div>
                             <div>
                                 <div class="font-semibold mb-px">Inquire first</div>
-                                <div class="text-sm">Send the form with your city (Plano, Frisco, Allen, McKinney, and Richardson) and preferred jar count. We’ll confirm availability and arrange delivery.</div>
+                                <div class="text-sm">Send the form with your city (Plano, Frisco, Allen, McKinney, and Richardson) and what you’d like — jars, loaves, or both. We’ll confirm availability and arrange delivery.</div>
                             </div>
                         </div>
                         <div class="flex gap-4">
@@ -482,7 +515,17 @@
                         <p class="uppercase tracking-wide font-semibold text-[13px] leading-snug" style="font-size: 13px;">THIS PRODUCT WAS PRODUCED IN A PRIVATE RESIDENCE THAT IS NOT SUBJECT TO GOVERNMENTAL LICENSING OR INSPECTION.</p>
                         <p>Producer: Soursprout · DSHS Cottage Food Registry #14300 · Texas direct sales only</p>
                         <p class="font-semibold" style="font-size: 12pt;">SAFE HANDLING INSTRUCTIONS: To prevent illness from bacteria, keep this food refrigerated or frozen until the food is prepared for consumption.</p>
-                        <p class="text-xs text-[#666]">Currently offering Classic only. Same producer ID, disclosure, and safe-handling rules apply to every jar.</p>
+                        <p class="text-xs text-[#666]">Currently offering Classic sauerkraut and Sourdough Bread. Producer ID and the cottage-food disclosure apply to both. The safe-handling statement above applies to Classic jars.</p>
+                    </div>
+
+                    <div class="mt-4 rounded-2xl border border-[#2F5D3A]/20 bg-[#F8F4ED] p-5 text-sm text-[#333] leading-relaxed space-y-2">
+                        <div class="font-semibold text-[#2F5D3A] tracking-tight">Sourdough Bread — label information</div>
+                        <p><strong>Soursprout — Sourdough Bread</strong></p>
+                        <p>Ingredients: Organic bread flour (wheat), water, organic whole wheat flour, sourdough starter (flour, water), salt.</p>
+                        <p>Contains: Wheat.</p>
+                        <p>Net weight: approx. 1.75 lb (790 g)</p>
+                        <p class="uppercase tracking-wide font-semibold text-[13px] leading-snug" style="font-size: 13px;">THIS PRODUCT WAS PRODUCED IN A PRIVATE RESIDENCE THAT IS NOT SUBJECT TO GOVERNMENTAL LICENSING OR INSPECTION.</p>
+                        <p>Producer: Soursprout · DSHS Cottage Food Registry #14300 · Texas direct sales only</p>
                     </div>
                     
                     <form id="order-form" class="mt-7 space-y-5" onsubmit="handleOrderSubmit(event)">
@@ -504,12 +547,13 @@
                             <select id="product" required class="w-full bg-[#F8F4ED] border border-[#2F5D3A]/10 focus:border-[#C85A3D] rounded-2xl px-5 py-3.5 text-sm outline-none">
                                 <option value="">Select</option>
                                 <option value="Classic Russian Kraut — 16 oz">Classic Russian Kraut — 16 oz</option>
+                                <option value="Sourdough Bread — ~1.75 lb loaf">Sourdough Bread — ~1.75 lb loaf</option>
                             </select>
                         </div>
                         
                         <div>
                             <label class="block text-xs font-semibold tracking-widest text-[#666] mb-1.5">QUANTITY &amp; SIZE NOTES</label>
-                            <input type="text" id="quantity" placeholder="e.g. 2 jars of Classic 16 oz"
+                            <input type="text" id="quantity" placeholder="e.g. 2 jars Classic, 1 loaf sourdough"
                                    class="w-full bg-[#F8F4ED] border border-[#2F5D3A]/10 focus:border-[#C85A3D] rounded-2xl px-5 py-3.5 text-sm outline-none">
                         </div>
                         
@@ -588,7 +632,7 @@
                     <i class="fa-solid fa-chevron-down transition-transform"></i>
                 </button>
                 <div class="faq-answer hidden px-8 pb-7 text-[#555] leading-relaxed">
-                    Yes — we keep everything refrigerated after fermentation and deliver it cold in person in Plano, Frisco, Allen, McKinney, and Richardson. Operator or a household member. We do not ship.
+                    Classic sauerkraut is kept refrigerated after fermentation and delivered cold in person in Plano, Frisco, Allen, McKinney, and Richardson. Operator or a household member. We do not ship. Sourdough Bread is a baked loaf; it is not a keep-refrigerated product.
                 </div>
             </div>
             
@@ -608,7 +652,7 @@
                     <i class="fa-solid fa-chevron-down transition-transform"></i>
                 </button>
                 <div class="faq-answer hidden px-8 pb-7 text-[#555] leading-relaxed">
-                    Absolutely. Every jar contains only vegetables, salt, and spices. No animal products or gluten.
+                    Classic sauerkraut is vegan and gluten-free: cabbage, carrots, and salt only. Sourdough Bread is made with wheat flour and is not gluten-free.
                 </div>
             </div>
 
@@ -807,7 +851,7 @@
             body += `%0D%0AThank you!`;
             
             // Open the user's email client
-            const subject = encodeURIComponent('Sauerkraut Order Inquiry from ' + name);
+            const subject = encodeURIComponent('Order Inquiry from ' + name);
             window.location.href = `mailto:soursproutllc@gmail.com?subject=${subject}&body=${body}`;
             
             // Show success modal after a beat
