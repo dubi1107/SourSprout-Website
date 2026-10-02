@@ -7,6 +7,10 @@ Static single-page site for Soursprout (Russian-style sauerkraut). Live on Netli
 - Texas **in-person delivery only** (operator or household member). **No shipping. No pickup at the production home.**
 - Pre-order product blocks include: ingredients, net weight, ALL-CAPS cottage disclosure, and DSHS Cottage Food Registry **#14300**. Classic sauerkraut also includes a batch note and the TCS safe-handling statement. Sourdough Bread is a separate label (contains wheat; no safe-handling statement, no refrigeration line, no batch-number format).
 - No probiotic / gut / immunity / digestion health claims.
+- Producer line matches the DSHS registry name: Soursprout (Brian Dubinsky), Cottage Food Registry #14300.
+- The kraut label shows “Date made” (printed on the jar label). The Keep Cold card uses the same wording.
+- No gluten-free claims anywhere on the page.
+- “Organic” appears only in the sourdough ingredient line (organic bread flour and organic whole wheat flour). Marketing copy does not say organic.
 - Offering now: Classic sauerkraut (cabbage, carrots, salt · 16 oz · $12) and Sourdough Bread (oval batard-style loaf · about 1.75 lb / approx. 790 g · $12). Kraut ferment is 72–96 hours. In-person delivery: Plano, Frisco, Allen, McKinney, Richardson. Contact: soursproutllc@gmail.com.
 - `assets/images/sourdough.jpg` is a temporary illustrative image. Replace it when a real loaf photo is available.
 
